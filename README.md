@@ -1,2 +1,2 @@
 # Face-Recognizer
-This program utilizes RetinaFace and DeepFace to detect face and then recognize if they are of the target face.
+This program utilizes RetinaFace and DeepFace to detect face and then recognize if they are of the target face. It takes frames from a video, recognizes and extracts faces from the frames. It tries to recognize a chosen person from the images and to test the performance it then takes an xml file of face coordinates, extracts the coordinates and compares the coordinates of the manually annotated faces to the detected and recognized images.
